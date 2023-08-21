@@ -1,0 +1,19 @@
+{
+  "name": "back-dlm-53703962c",
+  "version": "1.0.0",
+  "description": "Backend project DL challenge.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ismael-Illanes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.11.0",
+    "uuid4": "^2.0.3"
+  }
+}
