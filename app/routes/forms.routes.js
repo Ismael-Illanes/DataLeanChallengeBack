@@ -1,13 +1,11 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const formsController = require('../controllers/forms.controller');
-
+const formsController = require("../controllers/forms.controller");
 
 router.post("/", formsController.create);
-/* router.get('/:id', formsController.find);
-router.put('/:id', formsController.update);
-router.delete('/:id', formsController.delete);
-router.get('/findall/forms', formsController.findAll); */
-
+router.get("/findall/forms", formsController.findall);
+router.post("/:id", formsController.find);
+router.put("/:id", formsController.update);
+router.delete("/:id", formsController.delete);
 
 module.exports = router;
